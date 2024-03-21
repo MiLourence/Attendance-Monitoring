@@ -35,8 +35,8 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.mainpan = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panelBack.SuspendLayout();
             this.panel2.SuspendLayout();
             this.mainpan.SuspendLayout();
@@ -90,7 +90,7 @@
             this.panel2.Controls.Add(this.button1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 52);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(256, 624);
             this.panel2.TabIndex = 0;
@@ -116,7 +116,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(4, 22);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(220, 49);
             this.button1.TabIndex = 0;
@@ -131,10 +131,19 @@
             this.mainpan.Controls.Add(this.button2);
             this.mainpan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainpan.Location = new System.Drawing.Point(256, 52);
-            this.mainpan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mainpan.Margin = new System.Windows.Forms.Padding(4);
             this.mainpan.Name = "mainpan";
             this.mainpan.Size = new System.Drawing.Size(1236, 624);
             this.mainpan.TabIndex = 2;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(337, 206);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(284, 52);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -144,15 +153,6 @@
             this.button2.TabIndex = 0;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(403, 251);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(284, 52);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // Menu
             // 
