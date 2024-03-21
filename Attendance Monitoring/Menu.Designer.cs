@@ -35,11 +35,8 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.mainpan = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panelBack.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.mainpan.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -127,32 +124,12 @@
             // mainpan
             // 
             this.mainpan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.mainpan.Controls.Add(this.button3);
-            this.mainpan.Controls.Add(this.button2);
             this.mainpan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainpan.Location = new System.Drawing.Point(256, 52);
             this.mainpan.Margin = new System.Windows.Forms.Padding(4);
             this.mainpan.Name = "mainpan";
             this.mainpan.Size = new System.Drawing.Size(1236, 624);
             this.mainpan.TabIndex = 2;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(337, 206);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(284, 52);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(337, 153);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // Menu
             // 
@@ -171,7 +148,6 @@
             this.panelBack.ResumeLayout(false);
             this.panelBack.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.mainpan.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -184,7 +160,5 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel mainpan;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
     }
 }
