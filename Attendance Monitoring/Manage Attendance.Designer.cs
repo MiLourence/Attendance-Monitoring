@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manage_Attendance));
             this.MainP = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -42,10 +43,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.MainP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -54,7 +55,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // MainP
@@ -66,19 +66,32 @@
             this.MainP.Controls.Add(this.panel3);
             this.MainP.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainP.Location = new System.Drawing.Point(0, 0);
+            this.MainP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MainP.Name = "MainP";
-            this.MainP.Size = new System.Drawing.Size(1040, 549);
+            this.MainP.Size = new System.Drawing.Size(1387, 676);
             this.MainP.TabIndex = 5;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(3, 133);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(296, 370);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel5.Location = new System.Drawing.Point(691, 110);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2);
+            this.panel5.Location = new System.Drawing.Point(921, 135);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(222, 301);
+            this.panel5.Size = new System.Drawing.Size(296, 370);
             this.panel5.TabIndex = 1;
             // 
             // panel6
@@ -88,19 +101,19 @@
             this.panel6.Controls.Add(this.button10);
             this.panel6.Controls.Add(this.label3);
             this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel6.Location = new System.Drawing.Point(15, 15);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2);
+            this.panel6.Location = new System.Drawing.Point(20, 18);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(191, 266);
+            this.panel6.Size = new System.Drawing.Size(255, 327);
             this.panel6.TabIndex = 1;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(55, 89);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(73, 110);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(86, 96);
+            this.pictureBox3.Size = new System.Drawing.Size(115, 118);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
@@ -113,10 +126,10 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.Font = new System.Drawing.Font("Sitka Banner", 9.749999F, System.Drawing.FontStyle.Bold);
             this.button10.ForeColor = System.Drawing.Color.Black;
-            this.button10.Location = new System.Drawing.Point(0, 228);
-            this.button10.Margin = new System.Windows.Forms.Padding(2);
+            this.button10.Location = new System.Drawing.Point(0, 280);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(191, 38);
+            this.button10.Size = new System.Drawing.Size(255, 47);
             this.button10.TabIndex = 3;
             this.button10.Text = "Go to About";
             this.button10.UseVisualStyleBackColor = false;
@@ -126,10 +139,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(50, 23);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(67, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 29);
+            this.label3.Size = new System.Drawing.Size(123, 36);
             this.label3.TabIndex = 2;
             this.label3.Text = "ABOUT";
             // 
@@ -138,10 +150,10 @@
             this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel7.Location = new System.Drawing.Point(416, 110);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2);
+            this.panel7.Location = new System.Drawing.Point(555, 135);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(222, 301);
+            this.panel7.Size = new System.Drawing.Size(296, 370);
             this.panel7.TabIndex = 1;
             // 
             // panel8
@@ -151,19 +163,19 @@
             this.panel8.Controls.Add(this.button11);
             this.panel8.Controls.Add(this.label4);
             this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel8.Location = new System.Drawing.Point(15, 15);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2);
+            this.panel8.Location = new System.Drawing.Point(20, 18);
+            this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(191, 266);
+            this.panel8.Size = new System.Drawing.Size(255, 327);
             this.panel8.TabIndex = 1;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(55, 89);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Location = new System.Drawing.Point(73, 110);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(86, 96);
+            this.pictureBox4.Size = new System.Drawing.Size(115, 118);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
@@ -176,10 +188,10 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button11.Font = new System.Drawing.Font("Sitka Banner", 9.749999F, System.Drawing.FontStyle.Bold);
             this.button11.ForeColor = System.Drawing.Color.Black;
-            this.button11.Location = new System.Drawing.Point(0, 228);
-            this.button11.Margin = new System.Windows.Forms.Padding(2);
+            this.button11.Location = new System.Drawing.Point(0, 280);
+            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(191, 38);
+            this.button11.Size = new System.Drawing.Size(255, 47);
             this.button11.TabIndex = 3;
             this.button11.Text = "Go to Archive";
             this.button11.UseVisualStyleBackColor = false;
@@ -189,10 +201,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(41, 23);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(55, 28);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 29);
+            this.label4.Size = new System.Drawing.Size(156, 36);
             this.label4.TabIndex = 2;
             this.label4.Text = "ARCHIVE";
             // 
@@ -201,10 +212,10 @@
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel3.Location = new System.Drawing.Point(131, 110);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Location = new System.Drawing.Point(175, 135);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(222, 301);
+            this.panel3.Size = new System.Drawing.Size(296, 370);
             this.panel3.TabIndex = 0;
             // 
             // panel4
@@ -213,23 +224,11 @@
             this.panel4.Controls.Add(this.button4);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel4.Location = new System.Drawing.Point(15, 15);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.panel4.Location = new System.Drawing.Point(20, 18);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(191, 266);
+            this.panel4.Size = new System.Drawing.Size(255, 327);
             this.panel4.TabIndex = 1;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(20, 110);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(222, 301);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
             // 
             // button4
             // 
@@ -239,10 +238,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Sitka Banner", 9.749999F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(0, 228);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(0, 280);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(191, 38);
+            this.button4.Size = new System.Drawing.Size(255, 47);
             this.button4.TabIndex = 3;
             this.button4.Text = "Go to Modify";
             this.button4.UseVisualStyleBackColor = false;
@@ -252,23 +251,24 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(43, 23);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(57, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 29);
+            this.label2.Size = new System.Drawing.Size(135, 36);
             this.label2.TabIndex = 2;
             this.label2.Text = "MODIFY";
             // 
             // Manage_Attendance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1040, 549);
+            this.ClientSize = new System.Drawing.Size(1387, 676);
             this.Controls.Add(this.MainP);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Manage_Attendance";
             this.Text = "Manage_Attendance";
             this.MainP.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
@@ -280,7 +280,6 @@
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

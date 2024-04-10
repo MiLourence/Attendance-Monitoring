@@ -35,6 +35,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.mainpan = new System.Windows.Forms.Panel();
+            this.bTNADD = new System.Windows.Forms.Button();
             this.panelBack.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -84,6 +85,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel2.Controls.Add(this.button11);
+            this.panel2.Controls.Add(this.bTNADD);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 52);
@@ -98,10 +100,10 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.Black;
-            this.button11.Location = new System.Drawing.Point(4, 105);
+            this.button11.Location = new System.Drawing.Point(3, 217);
             this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(247, 50);
+            this.button11.Size = new System.Drawing.Size(250, 50);
             this.button11.TabIndex = 7;
             this.button11.Text = "Print";
             this.button11.UseVisualStyleBackColor = false;
@@ -115,7 +117,7 @@
             this.button1.Location = new System.Drawing.Point(4, 22);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(220, 49);
+            this.button1.Size = new System.Drawing.Size(252, 49);
             this.button1.TabIndex = 0;
             this.button1.Text = "Attendance report";
             this.button1.UseVisualStyleBackColor = false;
@@ -130,6 +132,21 @@
             this.mainpan.Name = "mainpan";
             this.mainpan.Size = new System.Drawing.Size(1236, 624);
             this.mainpan.TabIndex = 2;
+            // 
+            // bTNADD
+            // 
+            this.bTNADD.BackColor = System.Drawing.Color.MintCream;
+            this.bTNADD.FlatAppearance.BorderSize = 0;
+            this.bTNADD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bTNADD.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bTNADD.Location = new System.Drawing.Point(4, 101);
+            this.bTNADD.Margin = new System.Windows.Forms.Padding(4);
+            this.bTNADD.Name = "bTNADD";
+            this.bTNADD.Size = new System.Drawing.Size(252, 49);
+            this.bTNADD.TabIndex = 0;
+            this.bTNADD.Text = "ADD STUDENT";
+            this.bTNADD.UseVisualStyleBackColor = false;
+            this.bTNADD.Click += new System.EventHandler(this.bTNADD_Click);
             // 
             // Menu
             // 
@@ -160,5 +177,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel mainpan;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button bTNADD;
     }
 }

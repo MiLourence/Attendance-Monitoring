@@ -112,5 +112,11 @@ namespace Attendance_Monitoring
         {
 
         }
+
+        private void bTNADD_Click(object sender, EventArgs e)
+        {
+            new Modify_Students().Show();
+            this.Hide();
+        }
     }
 }
